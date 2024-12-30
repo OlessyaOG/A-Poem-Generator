@@ -9,35 +9,44 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <h1>AI Poem Generator</h1>
+    <div class="container">
+      <h1>AI Poem Generator</h1>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>The poem will go here</div>
-    </main>
+        <div class="poem">
+        The poem will go here
+        </b>
+        The poem will go here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/OlessyaOG" target="_blank">Olessya Oporta</a>
-      and is
-      <a href="https://github.com/OlessyaOG/A-Poem-Generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://generate-your-poem.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/OlessyaOG" target="_blank"
+          >Olessya Oporta</a
+        >
+        and is
+        <a href="https://github.com/OlessyaOG/A-Poem-Generator" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://generate-your-poem.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
