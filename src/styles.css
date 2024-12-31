@@ -1,16 +1,16 @@
 body {
-  background-color: salmon;
+  background-color: #ffb5b5;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 a {
-  color: purple;
+  color: #407088;
 }
 .container {
   margin: 120px auto;
   max-width: 600px;
-  background-color: salmon;
+  background-color: #ffb5b5;
 }
 
 header {
@@ -20,16 +20,18 @@ header {
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 90px;
+  font-family: "Fleur De Leah", serif;
   line-height: 1.5;
-  color: black;
+  color: #132743;
 }
 
 .form-container {
-  background-color: white;
+  background-color: #ffb5b5;
   margin-bottom: 30px;
   border-radius: 10px;
   padding: 15px 20px;
+  padding-top: 25px;
   box-shadow: 0 px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
@@ -39,14 +41,16 @@ form {
 
 .hint {
   line-height: 1.5;
+  color: #6a6a6a;
   margin-top: 10px;
-  font-size: 12px;
-  opacity: 0.6;
+  font-size: 13px;
+  opacity: 0.8;
+  font-family: "Pacifico", serif;
 }
 
 .instructions {
   padding: 16px;
-  border: 1px solid rgb(39, 33, 66, 0.5);
+  border: 2px solid #407088;
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
@@ -55,20 +59,23 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background-color: purple;
+  background-color: #407088;
   border: none;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 20px;
   padding: 14px 24px;
   width: 150px;
+  color: white;
+  font-family: "Pacifico", serif;
 }
 
 .poem {
   font-size: 16px;
-  background-color: white;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/803/original/Image6.jpg?1735614510");
+  background-size: 50%;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid purple;
+  border-left: 3px solid #407088;
   box-shadow: 0 px 20px 60px rgba(39, 33, 66, 0.03);
   border-radius: 10px;
 }
@@ -80,7 +87,9 @@ form {
 footer {
   text-align: center;
   font-size: 13px;
-  margin-top: 30px;
+  margin-top: 50px;
+  font-family: "Pacifico", serif;
+  color: #6a6a6a;
 }
 
 @keyframes blink-animation {
